@@ -133,7 +133,7 @@ Add your application screenshots inside the `images` folder.
 
 Example:
 
-![Application Screenshot](images/Screenshot 2026-11-21 at 9.45.31 PM.png)
+![Application Screenshot](images/Screenshot.png)
 
 ## 🔮 Future Improvements
 
