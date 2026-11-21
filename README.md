@@ -133,7 +133,7 @@ Add your application screenshots inside the `images` folder.
 
 Example:
 
-![Application Screenshot](images/app-screenshot.png)
+![Application Screenshot]([images/app-screenshot.png](https://github.com/pagaleatharva/RAG-PDF-Study-Assistant/blob/main/images/Screenshot%202026-11-21%20at%209.45.31%E2%80%AFPM.png))
 
 ## 🔮 Future Improvements
 
