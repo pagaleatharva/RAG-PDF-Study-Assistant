@@ -1,0 +1,19 @@
+# Environment and API keys
+.env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# ChromaDB databases
+vectorstore/
+user_vectorstores/
+
+# Temporary files
+*.pdf
+*.tmp
+
+# macOS files
+.DS_Store
