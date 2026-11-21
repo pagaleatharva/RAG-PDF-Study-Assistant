@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#101a3a"/>
+    <stop offset="100%" stop-color="#34236d"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#54d6ff"/>
+    <stop offset="100%" stop-color="#a78bfa"/>
+  </linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1400" height="560" rx="28" fill="url(#bg)"/>
+<circle cx="1120" cy="80" r="170" fill="#6d5dfc" opacity=".13" filter="url(#shadow)"/>
+<circle cx="240" cy="490" r="190" fill="#31c8e8" opacity=".10" filter="url(#shadow)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="82" y="170" fill="#ffffff" font-size="58" font-weight="700">RAG PDF STUDY ASSISTANT</text>
+  <text x="86" y="226" fill="#cbd5ff" font-size="28">Ask questions from your PDFs with AI</text>
+  <g transform="translate(90 290)">
+    <rect width="190" height="150" rx="18" fill="#ffffff" opacity=".10" stroke="#7dd3fc" stroke-width="2"/>
+    <path d="M62 30h52l25 25v68H62z" fill="none" stroke="#7dd3fc" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M114 30v27h25M78 77h44M78 94h44" fill="none" stroke="#7dd3fc" stroke-width="5" stroke-linecap="round"/>
+    <text x="95" y="137" text-anchor="middle" fill="#eaf4ff" font-size="16">PDF DOCUMENT</text>
+  </g>
+  <path d="M300 365 C380 365 385 365 455 365" fill="none" stroke="url(#glow)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M440 351l18 14-18 14" fill="none" stroke="#a5b4fc" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(485 290)">
+    <rect width="190" height="150" rx="18" fill="#ffffff" opacity=".10" stroke="#a78bfa" stroke-width="2"/>
+    <g fill="#a78bfa">
+      <circle cx="63" cy="57" r="12"/><circle cx="126" cy="57" r="12"/><circle cx="95" cy="105" r="12"/>
+    </g>
+    <g stroke="#c4b5fd" stroke-width="4"><path d="M63 57l63 0M63 57l32 48M126 57l-31 48"/></g>
+    <text x="95" y="137" text-anchor="middle" fill="#f2edff" font-size="16">VECTOR SEARCH</text>
+  </g>
+  <path d="M695 365 C775 365 780 365 850 365" fill="none" stroke="url(#glow)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M835 351l18 14-18 14" fill="none" stroke="#a5b4fc" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(880 290)">
+    <rect width="410" height="150" rx="18" fill="#ffffff" opacity=".10" stroke="#54d6ff" stroke-width="2"/>
+    <rect x="28" y="27" width="245" height="38" rx="12" fill="#24376a"/>
+    <rect x="110" y="80" width="270" height="38" rx="12" fill="#3d337c"/>
+    <circle cx="48" cy="46" r="7" fill="#54d6ff"/>
+    <circle cx="130" cy="99" r="7" fill="#c4b5fd"/>
+    <text x="294" y="51" fill="#eaf4ff" font-size="14">Question</text>
+    <text x="243" y="104" fill="#eaf4ff" font-size="14">AI answer</text>
+    <text x="205" y="137" text-anchor="middle" fill="#eaf4ff" font-size="16">CHAT WITH YOUR PDF</text>
+  </g>
+  <text x="86" y="505" fill="#b9c5f5" font-size="18">Python  •  Streamlit  •  LangChain  •  ChromaDB  •  Hugging Face  •  Groq</text>
+</g>
+</svg>
